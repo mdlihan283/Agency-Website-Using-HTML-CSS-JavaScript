@@ -1,7 +1,19 @@
 /* tablate screen divice design */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 35rem) {
     .container {
-        width: 95%;
+        max-width: 32rem;
+    }
+
+    .hero-banner-1 {
+        padding-inline: 3rem;
+    }
+}
+
+/* tablate screen divice design */
+@media only screen and (min-width: 48rem) {
+    .container {
+        width: 100%;
+        max-width: 45rem;
     }
 
     .hero-left h1 {
@@ -10,34 +22,37 @@
 
     .hero-right {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-end;
-        width: 50%;
+        align-items: end;
+        gap: 1.2rem;
     }
 
-    img.hero-banner-1 {
-        width: 42%;
-        margin-block-end: -.1rem;
+    .hero-banner-1 {
+        padding: unset;
     }
 
-    img.hero-banner-2 {
-        width: 55%;
+    .hero-banner-1 img {
+        margin: 0rem;
     }
 
-    img.hero-shape {
-        width: 12rem;
+    .hero-shape img {
+        right: 1rem;
+    }
+
+    .about-img-1 img {
+        max-width: 38rem;
+        margin-block-start: 20rem;
+    }
+
+    .about-img-2 img {
+        max-width: 30rem;
     }
 }
 
 /* desktop screen divice design */
-@media only screen and (min-width: 992px) {
-    section {
-        padding-block: 6rem;
-    }
-
+@media only screen and (min-width: 62rem) {
     .container {
-        width: 90%;
+        max-width: 58rem;
     }
 
     .logo a {
@@ -80,5 +95,80 @@
     .hero-left {
         text-align: left;
         max-width: 40%;
+    }
+
+    .about-wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .about-img-1 {
+        min-width: 45%;
+        z-index: 1;
+    }
+
+    .about-img-1 img {
+        border-top-left-radius: 6rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .about-img-3 {
+        position: absolute;
+        right: 0rem;
+        bottom: 5rem;
+        max-width: 26rem;
+    }
+
+    figure.about-img-2 {
+        position: absolute;
+        left: 18rem;
+        bottom: 26rem;
+        z-index: 1;
+    }
+
+    figure.about-img-2 img {
+        max-width: 17rem;
+        height: auto;
+    }
+
+    .about-content {
+        min-width: 3rem;
+        margin-inline-start: 13rem;
+    }
+
+}
+
+/* desktop large screen divice design */
+@media only screen and (min-width: 80rem) {
+    .container {
+        width: 100%;
+        max-width: 78rem;
+    }
+
+    figure.about-img-2 img {
+        max-width: 23rem;
+    }
+
+    figure.about-img-2 {
+        bottom: 13rem;
+        left: 29rem;
+    }
+
+    .about-img-3 {
+        max-width: 33rem;
+        bottom: 2rem;
+        z-index: 1;
+    }
+
+    .about-content {
+        max-width: 20rem;
+        margin-block-start: 1rem;
+    }
+
+    .about-img-1 img {
+        margin-block-start: 10rem;
     }
 }
