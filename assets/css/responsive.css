@@ -1,0 +1,84 @@
+/* tablate screen divice design */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .hero-left h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 50%;
+    }
+
+    img.hero-banner-1 {
+        width: 42%;
+        margin-block-end: -.1rem;
+    }
+
+    img.hero-banner-2 {
+        width: 55%;
+    }
+
+    img.hero-shape {
+        width: 12rem;
+    }
+}
+
+/* desktop screen divice design */
+@media only screen and (min-width: 992px) {
+    section {
+        padding-block: 6rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .logo a {
+        font-size: 2.1rem;
+    }
+
+    .nav-open-btn {
+        display: none;
+    }
+
+    .nav-bar {
+        all: unset;
+    }
+
+    .nav-list {
+        all: unset;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.5rem;
+        font-weight: 400;
+    }
+
+    .nav-link {
+        all: unset;
+        color: #2F1B02;
+        cursor: pointer;
+    }
+
+    .nav-close-btn {
+        display: none;
+    }
+
+    .hero-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-left {
+        text-align: left;
+        max-width: 40%;
+    }
+}
