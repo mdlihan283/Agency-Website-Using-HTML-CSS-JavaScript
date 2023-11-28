@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    padding-block: 6rem;
+    padding-block: 5rem;
 }
 
 ul {
@@ -281,7 +281,7 @@ img {
 }
 
 .sec-head p {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-size: 1.07rem;
     line-height: 1.6rem;
     color: #666366;
@@ -405,6 +405,10 @@ img {
 }
 
 /* =============== start styling gallery section ================ */
+.gallery {
+    padding: 0rem;
+}
+
 .gallery-card {
     background-position: 100%;
     background-size: cover;
@@ -446,4 +450,54 @@ img {
 
 .gallery-4 {
     background-image: linear-gradient(#00000073, #00000087), url("../img/gallery-4.jpg");
+}
+
+/* =============== start styling blog section ================ */
+.blog-card img {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.blog-card {
+    border-radius: 2rem 2rem 0rem 0rem;
+    overflow: hidden;
+    margin-block-end: 1rem;
+}
+
+.blog-card-bottom-content {
+    padding-inline: 1rem;
+    padding-block: 2rem;
+}
+
+h2.blog-card-title {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-block-end: 1.5rem;
+}
+
+.blog-card-meta span {
+    margin-block-end: .5rem;
+    display: block;
+    color: #444444;
+}
+
+.blog-card-meta span i {
+    font-size: .9rem;
+    margin-inline-end: .2rem;
+}
+
+.blog-card-meta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog-card-meta span:first-child {
+    width: 10rem;
+}
+
+.blog-btn {
+    margin: auto;
+    display: block;
 }
