@@ -171,4 +171,8 @@
     .about-img-1 img {
         margin-block-start: 10rem;
     }
+
+    .about-img-1 img {
+        max-width: 85%;
+    }
 }
