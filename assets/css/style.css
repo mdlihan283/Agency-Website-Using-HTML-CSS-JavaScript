@@ -365,6 +365,10 @@ img {
     margin-block-end: .6rem;
 }
 
+.feature-content-title p {
+    margin-block-end: 3rem;
+}
+
 .single-feature-content-title p {
     line-height: 1.5rem;
     font-family: sans-serif;
@@ -500,4 +504,58 @@ h2.blog-card-title {
 .blog-btn {
     margin: auto;
     display: block;
+}
+
+/* =============== start styling footer section ================ */
+.footer {
+    background-color: #2F1B02;
+}
+
+.foot-logo a {
+    display: block;
+    font-size: 2rem;
+    color: #84715F;
+    padding-block-start: 7rem;
+    margin-block-end: 1.5rem;
+}
+
+.single-foot p {
+    color: white;
+    margin-block-end: 1.5rem;
+}
+
+.foot-social-icon a {
+    display: block;
+    color: #84715F;
+}
+
+.foot-social-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.single-foot {
+    margin-block-end: 3rem;
+}
+
+.single-foot h2 {
+    color: #84715F;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-block-end: 2rem;
+}
+
+a.foot-nav-link {
+    display: block;
+    color: white;
+    margin-block-end: 0.9rem;
+}
+
+.copy-right-center {
+    border-top: 0.2rem solid #4F3B24;
+    padding-block: 3rem;
+    color: white;
+    font-family: cursive;
+    padding-inline: 1rem;
+    text-align: center;
 }
