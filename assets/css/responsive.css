@@ -7,6 +7,7 @@
     .hero-banner-1 {
         padding-inline: 3rem;
     }
+
 }
 
 /* tablate screen divice design */
@@ -46,6 +47,53 @@
 
     .about-img-2 img {
         max-width: 30rem;
+    }
+
+    .collection-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .collection-card {
+        max-width: 48%;
+    }
+
+    section.gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-card {
+        min-width: 50%;
+    }
+
+    .blog-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .blog-card {
+        max-width: 48%;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .single-foot {
+        min-width: 45%;
+    }
+
+    .single-foot:first-child {
+        max-width: 40%;
+    }
+
+    .single-foot:last-child {
+        max-width: 40%;
     }
 }
 
@@ -137,6 +185,56 @@
     .about-content {
         min-width: 3rem;
         margin-inline-start: 13rem;
+    }
+
+    .collection-card {
+        width: 32%;
+    }
+
+    section.feature {
+        padding: 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .feature-left-img {
+        min-width: 50%;
+        padding-block: 26.5rem;
+    }
+
+    .feature-right-content {
+        min-width: 50%;
+        padding: 8.7rem;
+    }
+
+    .testimonial-wrapper {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    section.testimonial {
+        padding-block: 12rem;
+    }
+
+    .gallery-card {
+        min-width: 25%;
+    }
+
+    .single-foot {
+        min-width: 10%;
+    }
+
+    .single-foot:first-child {
+        max-width: 25%;
+    }
+
+    .single-foot:last-child {
+        max-width: 25%;
+    }
+
+    .blog-card {
+        max-width: 23%;
     }
 
 }
